@@ -1,0 +1,20 @@
+@font-face {
+			font-family: "GothamProBold";
+			src: url("../fonts/GothamPro/GothamProBold/GothamProBold.eot");
+			src: url("../fonts/GothamPro/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/GothamPro/GothamProBold/GothamProBold.woff") format("woff"),
+			url("../fonts/GothamPro/GothamProBold/GothamProBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+
+@font-face {
+			font-family: "PfennigMedium";
+			src: url("../fonts/Pfennig/PfennigMedium/PfennigMedium.eot");
+			src: url("../fonts/Pfennig/PfennigMedium/PfennigMedium.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/Pfennig/PfennigMedium/PfennigMedium.woff") format("woff"),
+			url("../fonts/Pfennig/PfennigMedium/PfennigMedium.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}

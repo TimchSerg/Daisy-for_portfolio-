@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.row div {
+    
+    border: 1px solid black;
+    /*height: 300px;*/
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.padding_site{
+    padding: 0 11.5%;
+}
+
+header{
+    background-image: url(img/bg_header.jpg);
+    background-size: cover;
+    height: 765px;
+}
+
+.header-logo-nav{
+    padding: 22px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.log{
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+    .log img{
+        margin-right: 5px;
+    }
+    .log span{
+        font-family: "GothamProBold";
+        color: white;
+        font-size: 1.714em
+    }
+.nav-header ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 425px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+}
+    .nav-header ul li{
+        list-style-type: none;
+    }
+    .nav-header ul li a{
+        color: white;
+        font-size: 1.143em;
+        font-family: "PfennigMedium";
+        text-transform: uppercase;
+    }
