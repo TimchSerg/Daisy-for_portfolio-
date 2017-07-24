@@ -24,6 +24,18 @@ header{
     height: 765px;
 }
 
+
+ a:focus {
+    
+}
+
+
+a:hover, a:focus {
+    color: #fc635e;
+    border-bottom: 2px solid #fc635e;
+    text-decoration: none;
+}
+
 .header-logo-nav{
     padding: 22px 0;
     display: -webkit-box;
@@ -67,14 +79,18 @@ header{
     .nav-header ul li{
         list-style-type: none;
     }
-    .nav-header ul li a{
+    .nav-no-active{
         color: white;
         font-size: 1.143em;
         font-family: "PfennigMedium";
         text-transform: uppercase;
     }
 
-.nav-header ul li a:active{
+.nav-no-active:active{
+        color: #fc635e;
+        border-bottom: 2px solid #fc635e;
+    }
+.active{
         color: #fc635e;
         border-bottom: 2px solid #fc635e;
     }
