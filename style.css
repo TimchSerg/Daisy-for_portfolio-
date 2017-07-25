@@ -8,6 +8,14 @@
 body{
     width: 100%;
 }
+
+h1, h2, h3, h4, h5{
+    font-family: "GothamProBold";
+}
+
+p{
+    font-family: "PfennigMedium";
+}
 .row {
     
     margin-left: 0px;
@@ -115,3 +123,26 @@ a:hover, a:focus {
     background: none;
     display: none;
 }
+
+/*------  block-head-title  ------*/
+
+.block-head-title{
+    width: 100%;
+    text-align: center;
+    height: 650px;
+    padding-top: 190px;
+}
+    .block-head-title h1{
+        text-transform: uppercase;
+        color: white;
+        font-size: 3.64em;
+        margin-bottom: 0px;
+    }
+    .block-head-title p{
+        color: white;
+        font-size: 1.714em;
+    }
+.btn-head-title{
+    
+}
+
