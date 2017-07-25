@@ -1,8 +1,30 @@
 @media screen and (max-width:768px) {
+    
+    .padding_site {
+        
+    }
+    header{
+        height: auto;
+    }
+    
+    .btn-head-all:after{
+        content: '';
+    }
+    .btn-head-all {
+        width: 215px;
+        height: 200px;
+    }
+    .block-head-title {
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    
     .nav-header ul{
         display: none;
     }
-    
     
     .btn-burg{
         display: block;
@@ -13,10 +35,5 @@
         display: block;
         text-align: right;
     }
-    .padding_site {
-        
-    }
-    header{
-        height: auto;
-    }
+    
 }
