@@ -251,3 +251,14 @@ a:hover, a:focus {
     font-size: 1.071em;
     padding-top: 20px;
 }
+hr{
+    border: 0;
+    border-top: none;
+    background-color: black;
+    height: 1px;
+    width: 60px;
+    margin: 10px auto 0;
+}
+.active-offter{
+    
+}
