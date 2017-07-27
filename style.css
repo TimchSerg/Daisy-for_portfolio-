@@ -387,7 +387,7 @@ a:hover, a:focus {
 }
 
 .what_txt{
-    padding: 56px 0px 0px;
+    padding-top: 56px;
     height: 330px;
 }
 .what_title_left, .what_title_right{
