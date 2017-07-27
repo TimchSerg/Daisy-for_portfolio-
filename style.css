@@ -21,6 +21,25 @@ p{
     margin-left: 0px;
     margin-right: 0px;
 }
+
+.hr_h1{
+    border: 0;
+    border-top: none;
+    background-color: black;
+    height: 1px;
+    width: 65%;
+    margin: 5px auto;
+}
+.hr_h3{
+    border: 0;
+    border-top: none;
+    background-color: black;
+    height: 1px;
+    width: 60px;
+    margin: 10px auto 0;
+}
+
+
 .arrow{
     text-align: center;
     padding-bottom: 15px;
@@ -251,14 +270,7 @@ a:hover, a:focus {
     font-size: 1.071em;
     padding-top: 20px;
 }
-hr{
-    border: 0;
-    border-top: none;
-    background-color: black;
-    height: 1px;
-    width: 60px;
-    margin: 10px auto 0;
-}
+
 .active-offter{
     
 }
@@ -354,3 +366,13 @@ hr{
                 width: 19%;
                 height: 32%;
             }
+
+
+/*---------------*/
+/*---------------*/
+/*---------------*/
+/*------  block-what-do  ------*/
+
+.what-do{
+    margin-top: 60px;
+}
