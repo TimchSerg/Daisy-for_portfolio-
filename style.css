@@ -416,3 +416,24 @@ a:hover, a:focus {
     border-radius: 5px;
     letter-spacing: 0.5px;
 }
+
+
+
+/*---------------*/
+/*---------------*/
+/*---------------*/
+/*------  FOOTER  ------*/
+
+
+footer{
+    height: 210px;
+    background-image: url(img/bg_footer.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.footer-log{
+    display: block;
+    margin: 0 auto;
+    padding: 5.6% 0;
+}
