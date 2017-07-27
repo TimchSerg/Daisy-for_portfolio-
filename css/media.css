@@ -1,10 +1,15 @@
 @media screen and (max-width: 1024px) {
-    
+     .emblem{
+        left: 40.5%;
+    }
     
 }
 
 @media screen and (max-width:768px) {
     
+    .emblem{
+        left: 36.5%;
+    }
     .what_txt {
         
         height: 330px;
@@ -47,6 +52,14 @@
     .nav-header li{
         display: block;
         text-align: right;
+    }
+    
+}
+
+@media screen and (max-width: 414px) {
+    
+   .emblem{
+        left: 24.5%;
     }
     
 }

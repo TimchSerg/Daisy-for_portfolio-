@@ -7,6 +7,9 @@
 }
 body{
     width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 h1, h2, h3, h4, h5{
@@ -382,7 +385,7 @@ a:hover, a:focus {
 }
 
 .what_img img{
-    max-width:100%;
+    width:100%;
     height:auto;
 }
 
@@ -416,8 +419,40 @@ a:hover, a:focus {
     border-radius: 5px;
     letter-spacing: 0.5px;
 }
+/*---------------*/
+/*---------------*/
+/*---------------*/
+/*------  MAP  ------*/
 
+.block-map{
+    height: 460px;
+    position: relative
+}
+.map-size{
+    padding-top: 123px;
+}
+.emblem{
+    width: 208px;
+    height: 243px;
+    background-image: url(img/emblem.png);
+    background-size: cover;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 41.5%;
+    text-align: center;
+}
+.emblem h3{
+    color: white;
+    font-size: 2em;
+    padding-top: 65px;
+}
 
+.emblem p{
+    color: white;
+    padding: 10px 15px;
+    font-size: 1.1em;
+}
 
 /*---------------*/
 /*---------------*/
@@ -426,7 +461,6 @@ a:hover, a:focus {
 
 
 footer{
-    height: 210px;
     background-image: url(img/bg_footer.jpg);
     background-size: cover;
     text-align: center;
