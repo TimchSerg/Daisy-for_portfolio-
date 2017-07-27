@@ -16,12 +16,16 @@ h1, h2, h3, h4, h5{
 p{
     font-family: "PfennigMedium";
 }
-.row {
-    
-    margin-left: 0px;
-    margin-right: 0px;
+.right {
+    float: right;
+}
+.left {
+    float: left;
 }
 
+.txt-right{
+    text-align: right;
+}
 .hr_h1{
     border: 0;
     border-top: none;
@@ -334,7 +338,7 @@ a:hover, a:focus {
     margin-bottom: 45px;
 }
 .prev-process img{
-    max-width:100%;
+    width:100%;
     height:auto;
 }
 
@@ -375,4 +379,40 @@ a:hover, a:focus {
 
 .what-do{
     margin-top: 60px;
+}
+
+.what_img img{
+    max-width:100%;
+    height:auto;
+}
+
+.what_txt{
+    padding: 56px 0px 0px;
+    height: 330px;
+}
+.what_title_left, .what_title_right{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.what_title_right{
+    border-right: 7px solid #fc635e;
+    padding-right: 5px;
+}
+.what_title_left{
+    border-left: 7px solid #fc635e;
+    padding-left: 5px;
+}
+
+.what_txt p{
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.btn-what-do{
+    background-color: #fc635e;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
 }

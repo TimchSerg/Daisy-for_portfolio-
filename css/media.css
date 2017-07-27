@@ -1,8 +1,15 @@
+@media screen and (max-width: 1024px) {
+    
+    
+}
+
 @media screen and (max-width:768px) {
     
-    .padding_site {
-        
+    .what_txt {
+        padding: 0px 0px 0px;
+        height: 330px;
     }
+    
     header{
         height: auto;
     }
@@ -21,6 +28,9 @@
     .title-offer{
             width: 100%;
         }
+    .what-do {
+        margin-top: 60px;
+    }
 }
 
 @media screen and (max-width: 767px) {
