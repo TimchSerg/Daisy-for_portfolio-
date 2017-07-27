@@ -23,7 +23,7 @@ p{
 }
 .arrow{
     text-align: center;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 .container{
@@ -269,7 +269,7 @@ hr{
 /*------  block-bussines and proces  ------*/
 
 .bussines{
-    height: 576px;
+   
     background-image: url(img/bg_bussines.jpg);
     background-size: cover;
 }
