@@ -328,7 +328,7 @@ a:hover, a:focus {
             text-align: center;
             width: 60.72%;
             margin: 0 auto;
-            margin-bottom: 75px;
+            margin-bottom: 25px;
         }
         .title-process h3{
             text-transform: uppercase;
@@ -419,6 +419,46 @@ a:hover, a:focus {
     border-radius: 5px;
     letter-spacing: 0.5px;
 }
+
+/*---------------*/
+/*---------------*/
+/*---------------*/
+/*------  block-portfolio  ------*/
+
+.block-portfolio{
+    margin-top: 60px;
+}
+.portfolio-theme{
+        
+    }
+
+.portfolio-theme li{
+        display: inline-block;
+        list-style-type: none;
+        text-transform: uppercase;
+    }
+    .portfolio-theme a{
+        display: block;
+        font-size: 1.143em;
+        color: #fc635e;
+        padding-right: 35px;
+    }
+        .portfolio-theme a:hover{
+            text-shadow: #a6a2a2 1px 1px 5px, #a6a2a2 -1px -1px 5px, 
+                         #a6a2a2 -1px 1px 5px, #a6a2a2 1px -1px 5px;
+        }
+
+.portfolio-theme a:before{
+    content: '\002F';
+    padding-right: 35px;
+    color: black;
+}
+.portfolio-theme li:first-child a:before{
+    content: '';
+}
+
+
+
 /*---------------*/
 /*---------------*/
 /*---------------*/
