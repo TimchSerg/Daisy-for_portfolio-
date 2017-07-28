@@ -320,7 +320,7 @@ a:hover, a:focus {
 
 
 .process{
-    height: 840px;
+    
     margin-top: 60px;
 }
 
@@ -429,7 +429,9 @@ a:hover, a:focus {
     margin-top: 60px;
 }
 .portfolio-theme{
-        
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 30px;
     }
 
 .portfolio-theme li{
@@ -441,7 +443,7 @@ a:hover, a:focus {
         display: block;
         font-size: 1.143em;
         color: #fc635e;
-        padding-right: 35px;
+        padding: 5px 26px 5px 0px;
     }
         .portfolio-theme a:hover{
             text-shadow: #a6a2a2 1px 1px 5px, #a6a2a2 -1px -1px 5px, 
@@ -450,12 +452,64 @@ a:hover, a:focus {
 
 .portfolio-theme a:before{
     content: '\002F';
-    padding-right: 35px;
+    padding-right: 20px;
     color: black;
 }
 .portfolio-theme li:first-child a:before{
     content: '';
 }
+
+.portfolio_items-img{
+    padding: 0;
+}
+.items-img-line-one, .items-img-line-two{
+    width: 100%;
+    height: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.items-img-line-one img{
+    width: 97%;
+    height: auto;
+    margin: 5px;
+}
+.items-img-line-two img{
+    width: 46%;
+    height: auto;
+    margin: 5px;
+}
+.position-btn{
+    margin: 30px 38%;
+    width: 181px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*---------------*/
+/*---------------*/
+/*---------------*/
+/*------  team  ------*/
+.team{
+    margin-top: 30px;
+}
+
+
+/*---------------*/
+/*---------------*/
+/*---------------*/
+/*------  team-info  ------*/
+.team-info{
+    margin-top: 30px;
+    text-align: center;
+}
+.team-info img{
+    /* width: 65px; */
+    margin-bottom: 30px;
+}
+
 
 
 
