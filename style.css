@@ -590,6 +590,7 @@ a:hover, a:focus {
     list-style: none;
     display: inline;
     float: left;
+    padding-bottom: 80px;
 }
 
 .slide-img {
@@ -600,7 +601,7 @@ a:hover, a:focus {
 
 .slide p{
     display: inline-block;
-    width: 350px;
+    width: 36%;
     float: left;
     padding: 60px 0;
 }
@@ -616,6 +617,31 @@ a:hover, a:focus {
 }
 .name-title h4{
     font-size: 2em;
+}
+
+
+#prev-btn, #next-btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: calc(85% - 25px);
+}
+
+#prev-btn:hover, #next-btn:hover {
+    cursor: pointer;
+}
+
+#prev-btn {
+    left: 41%;
+    background-image: url(img/arrow-prev.png);
+    background-size: cover;
+}
+
+#next-btn {
+    right: 41%;
+    background-image: url(img/arrow-next.png);
+    background-size: cover;
 }
 
 /*---------------*/
