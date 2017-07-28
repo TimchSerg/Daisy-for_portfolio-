@@ -480,8 +480,8 @@ a:hover, a:focus {
     margin: 5px;
 }
 .position-btn{
-    margin: 30px 38%;
-    width: 181px;
+    margin: 30px auto;
+    width: 200px;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------*/
@@ -495,8 +495,44 @@ a:hover, a:focus {
 .team{
     margin-top: 30px;
 }
+.team-group{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.team-group img{
+    padding: 15px;
+}
+.team-group h4{
+    letter-spacing: 1px;
+}
+.team-group p{
+    padding: 15px;
+}
+
+.social-group{
+    
+}
+.social-icons{
+    background-image: url(img/logo_social_web.jpg);
+    display: inline-block;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
 
 
+            .twitter{
+                background-position: 415px 100px;
+            }
+            .facebook{
+                background-position: 325px 100px;
+            }
+            .instagram{
+                background-position: 283px 100px;
+            }
 /*---------------*/
 /*---------------*/
 /*---------------*/
